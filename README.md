@@ -18,8 +18,8 @@ import styled from 'stencil-styled-components'
 
 const StyledDiv = styled.div`
   display: inline-block;
-  background-color: #448aff;
-  color: white;
+  background-color: ${props => props.invert ? 'black' : 'white'};
+  color: ${props => props.invert ? 'white' : 'black'};
   width: 100px;
   height: 100px;
 `
@@ -33,6 +33,9 @@ export class MyComponent {
       <div>
         <StyledDiv>
           <span>Hey, I'm styled!</span>
+        </StyledDiv>
+        <StyledDiv invert>
+          <span>Hey, I'm inverted with a prop!</span>
         </StyledDiv>
       </div>
     )
