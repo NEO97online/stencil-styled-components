@@ -24,5 +24,8 @@
   "homepage": "https://github.com/michaelauderer/stencil-styled-components#readme",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "stylis": "^3.5.3"
   }
 }
