@@ -1,6 +1,6 @@
 {
   "name": "stencil-styled-components",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Small library to bring the concept of styled-components to StencilJS.",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,5 @@
   "devDependencies": {
     "jest": "^23.6.0"
   },
-  "dependencies": {
-    "stylis": "^3.5.3"
-  }
+  "dependencies": {}
 }
