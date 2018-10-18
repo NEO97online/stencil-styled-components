@@ -1,9 +1,9 @@
-import { tags } from './lib/tags'
-import { createElement } from './lib/create-element'
+import domElements from './lib/utils/domElements'
+import createElement from './lib/create-element'
 
 const styled = {}
 
-for (const tag of tags) {
+for (const tag of domElements) {
   styled[tag] = createElement(tag)
 }
 
