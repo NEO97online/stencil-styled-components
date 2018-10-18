@@ -26,6 +26,7 @@
     "jest": "^23.6.0"
   },
   "dependencies": {
-    "stylis": "^3.5.3"
+    "stylis": "^3.5.3",
+    "stylis-rule-sheet": "0.0.10"
   }
 }

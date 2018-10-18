@@ -4,12 +4,16 @@ import styled from '../../../../'
 
 const StyledButton = styled.button`
   color: ${props => props.color};
+  height: 50px;
+  &:hover {
+    color: red;
+  }
 `
 
 @Component({
   tag: 'app-home',
   styleUrl: 'app-home.css',
-  shadow: true
+  shadow: false
 })
 export class AppHome {
 
@@ -24,6 +28,15 @@ export class AppHome {
         </p>
 
         <stencil-route-link url='/profile/stencil'>
+          <StyledButton color="blue">
+            Profile page
+          </StyledButton>
+          <StyledButton color="blue">
+            Profile page
+          </StyledButton>
+          <StyledButton color="blue">
+            Profile page
+          </StyledButton>
           <StyledButton color="blue">
             Profile page
           </StyledButton>
