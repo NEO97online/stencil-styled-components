@@ -2,8 +2,6 @@
 
 Small library to bring the concept of [styled-components](https://github.com/styled-components/styled-components) to StencilJS.
 
-IMPORTANT NOTE: This does not yet contain all the templating features of styled-components. Currently, only plain css is working as a proof-of-concept.
-
 ## Installation
 
 ```
@@ -22,6 +20,10 @@ const StyledDiv = styled.div`
   color: ${props => props.invert ? 'white' : 'black'};
   width: 100px;
   height: 100px;
+
+  &:hover {
+    border: 1px solid #448aff;
+  }
 `
 
 @Component({
