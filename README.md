@@ -10,7 +10,7 @@ npm i stencil-styled-components
 
 ## Usage
 
-```tsx
+```jsx
 import { Component } from '@stencil/core'
 import styled from 'stencil-styled-components'
 
