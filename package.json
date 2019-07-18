@@ -25,5 +25,8 @@
   "devDependencies": {
     "jest": "^23.6.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "@stencil/core": "^1.1.7"
+  }
 }
