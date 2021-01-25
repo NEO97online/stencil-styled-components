@@ -2,6 +2,8 @@
 
 Small library to bring the concept of [styled-components](https://github.com/styled-components/styled-components) to StencilJS.
 
+> Works only on [Scoped components](https://stenciljs.com/docs/styling#scoped-css), Shadow DOM isn't supported.
+
 ## Installation
 
 ```
